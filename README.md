@@ -10,24 +10,28 @@ In this project, I created a simple yet effective temperature logging system. Th
 * Error Handling: Ensures smooth execution with proper checks.
 
 # 📂 File Structure
+```
 TemperatureLogger/
-│
-├── src/
-│   └── temp_data_logger.c       # Main source code file
-│
-├── logs/                         # Directory where log files will be stored (generated during the first execution)
+├── src/                          # Contains source code files
+│   └── temp_data_logger.c        # Main source code file
+├── logs/                         # Directory for log files (created during first execution)
 │   └── temp_log.txt              # Log file generated during execution
-│
 └── README.md                     # Project overview and instructions
+```
+
 
 # 💻 How to Run the Project 
-1. You can download the project as .zip file and then extract it, or use cloning command on your terminal : 
+1. You can download the project as .zip file and then extract it, or use cloning command on your terminal :
+```bash
 git clone https://github.com/yassinomri/Temperature-Data-Logger
-2. Navigate to the Project Directory, open Terminal, and compile the program using this command :
+```
+3. Navigate to the Project Directory, open Terminal, and compile the program using this command :
+```bash
 gcc src/temp_data_logger.c -o temp_data_logger
-3. Run the .exe Application : 
+```
+4. Run the .exe Application : 
 ./temp_data_logger
-4. Check the Logged Data by opening logs/temp_log.txt to view the logged temperature entries.
+5. Check the Logged Data by opening logs/temp_log.txt to view the logged temperature entries.
 
 # 📈 Future Enhancements
 - Integration with Actual Hardware: Future iterations could interface with real temperature sensors to log actual environmental data.
